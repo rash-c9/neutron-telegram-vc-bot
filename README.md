@@ -1,4 +1,4 @@
-# NEUTRON
+# NEUTRON BOT
 
 NEUTRON Bot To Play Music From Various Sources In Your Group... Edited version of [this epic bot](https://github.com/thehamkercat/Telegram_VC_Bot)
 This bot is same as Telegram VC Bot.... But without youtube command as jiosaavn as better quality as well as I think indeed it is not needed... [And with admins feature... You can choose who can use your bot... this will come soon... lol... queue coming soon]
