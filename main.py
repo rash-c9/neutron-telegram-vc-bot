@@ -80,7 +80,7 @@ async def start(_, message: Message):
 
 
 @app.on_message(
-    filters.command(["help"]) & filters.chat(sudo_chat_id) & ~filters.edited
+    filters.command(["nhelp"]) & filters.chat(sudo_chat_id) & ~filters.edited
 )
 async def help(_, message: Message):
     global blacks
