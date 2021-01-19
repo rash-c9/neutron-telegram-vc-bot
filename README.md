@@ -1,6 +1,6 @@
-# Telegram Voice-Chat Bot
+# NEUTRON
 
-Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
+NEUTRON Bot To Play Music From Various Sources In Your Group... Fork of [this epic bot](https://github.com/thehamkercat/Telegram_VC_Bot)
 
 <img src="https://telegra.ph/file/163addf2b7c4b9570e9d9.jpg" width="500" height="400">
 <img src="etc/tg_vc_bot.png" width="300" height="300">
@@ -23,7 +23,7 @@ Telegram Voice-Chat Bot To Play Music From Various Sources In Your Group
 - Bot needs to be admin in the chat, atleast give message delete permissions.
 - Install `mpv` with
 
-`pkg install mpv` - for Android,  `sudo apt-get install mpv` - for ubuntu, `sudo pacman -S mpv `  - for ArchLinux, I use arch btw
+`pkg install mpv` - for Android,  `sudo apt-get install mpv` - for ubuntu, `sudo pacman -S mpv `  - for ArchLinux, I use UBUNTU 20.04
 
 ## Run
 
@@ -66,7 +66,6 @@ Command | Description
 
 1. More services will be added soon.
 2. Termux is not completely supported yet, might take a week or two.
-3. If you want any help you can ask [here](https://t.me/TheHamkerChat)
 
 ## Credits
 1. `https://github.com/cyberboysumanjay/JioSaavnAPI` [For JioSaavnAPI]
