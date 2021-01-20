@@ -16,7 +16,7 @@ from PIL import ImageDraw
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from youtube_search import YoutubeSearch
-from config import owner_id, bot_token, radio_link, sudo_chat_id
+from config import owner_id, bot_token, radio_link, sudo_chat_id, rash_id
 
 app = Client(
     ":memory:",
