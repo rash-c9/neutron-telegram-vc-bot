@@ -347,7 +347,10 @@ async def end(_, message: Message):
     global m
     global s
     if message.from_user.id != owner_id:
-        await message.reply_text("Only Rashh and admins can stop the bot.")
+        await message.reply_text("YOu cant end me")
+        return
+    if message.from_user.id != rash_id:
+        await message.reply_text("Get lost")
         return
     if message.from_user.id in blacks:
         await message.reply_text("You're Blacklisted, So Stop Spamming.")
