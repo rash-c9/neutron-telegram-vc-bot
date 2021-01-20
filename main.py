@@ -16,7 +16,7 @@ from PIL import ImageDraw
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from youtube_search import YoutubeSearch
-from config import owner_id, bot_token, radio_link, sudo_chat_id, rash_id
+from config import owner_id, bot_token, radio_link, sudo_chat_id, neutron_id
 
 app = Client(
     ":memory:",
@@ -349,7 +349,7 @@ async def end(_, message: Message):
     if message.from_user.id != owner_id:
         await message.reply_text("YOu cant end me")
         return
-    if message.from_user.id != rash_id:
+    if message.from_user.id != neutron_id:
         await message.reply_text("Get lost")
         return
     if message.from_user.id in blacks:
